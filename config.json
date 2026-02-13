@@ -1,0 +1,20 @@
+{
+  "portfolio": {
+    "stocks": [
+      "삼양식품",
+      "SK하이닉스",
+      "더존비즈온",
+      "서진시스템",
+      "HPSP",
+      "주성엔지니어링",
+      "피에스케이홀딩스",
+      "원익IPS"
+    ]
+  },
+  "schedule": {
+    "check_interval_minutes": 5,
+    "start_hour": 7,
+    "end_hour": 19,
+    "weekdays_only": true
+  }
+}

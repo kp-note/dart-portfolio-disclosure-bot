@@ -1,0 +1,35 @@
+# 환경 변수 파일
+.env
+
+# 중복 방지용 데이터
+sent_disclosures.json
+company_codes.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 테스트 스크립트
+test_bot.py
+test_telegram.py
