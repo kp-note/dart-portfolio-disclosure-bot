@@ -3,7 +3,6 @@
 
 # 중복 방지용 데이터
 sent_disclosures.json
-company_codes.json
 
 # Python
 __pycache__/
