@@ -14,6 +14,7 @@ import os
 import json
 import requests
 from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 import asyncio
 from telegram import Update
@@ -22,12 +23,12 @@ from telegram.error import TelegramError
 import pytz
 
 # 환경 변수 로드
-load_dotenv()
+load_dotenv(Path.home() / ".config/kp/.env")
 
 # 설정 값
 DART_API_KEY = os.getenv('DART_API_KEY')
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
+TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN_DISCLOSURE')
+TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_DISCLOSURE')
 ADMIN_CHAT_ID = int(os.getenv('TELEGRAM_ADMIN_CHAT_ID', '0'))
 STOCKS_ENV = os.getenv('STOCKS', '')
 
